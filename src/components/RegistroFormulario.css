@@ -1,0 +1,51 @@
+.formulario-evento{
+    width: 100vw;
+    height: 100vh;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    text-align: center;
+    margin-top: 100px;
+}
+.formulario{
+    width: 50%;
+    height: 60%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 25%;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formulario input{
+    width: 70%;
+    height: 35px;
+    margin-bottom: 10px;  
+    background-color: rgb(227, 244, 250);
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+   
+} 
+.formulario  .descripcion{
+    height: 120px;
+    padding: 10px;
+}
+.botones{
+    width: 70%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.botones button{
+    width: 40%;
+    margin-top: 10px;
+    border: 0;
+    border-radius: 10px;
+    background-color: lightblue;
+    font-size: 15px;
+}
